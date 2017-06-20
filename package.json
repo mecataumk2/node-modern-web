@@ -1,0 +1,8 @@
+{
+  "name": "node-modern-web",
+  "version": "0.0.1",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.3.0"
+  }
+}
