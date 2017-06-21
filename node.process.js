@@ -15,12 +15,12 @@ uptime()
 // process.argv 속성과 exit 메서드
 // cmd: node node.process.js --exit 10000
 process.argv.forEach((item, index) => {
-    console.log(`${index} : ${typeof(item)} : ${item}`);
+    console.log(`${index} : ${typeof (item)} : ${item}`);
 
     // 실행 매개변수에 --exit가 있을 때
-    if (item == '--exit'){
+    if (item == '--exit') {
         // 다음 실행 매개변수를 얻음
-        let exitTime = Number(process.argv[index+1]);
+        let exitTime = Number(process.argv[index + 1]);
 
         //일정 시간 후 프로그램 종료
         setTimeout(() => {
